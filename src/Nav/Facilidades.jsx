@@ -3,9 +3,10 @@ import styled from "styled-components";
 import Ok from "../assets/Ok";
 
 const FacilidadesSec = styled.section`
-  height: 80vh;
-  border: solid green;
+  height: 100vh;
+
   display: flex;
+  padding: 1rem;
 `;
 
 const Content = styled.div`

@@ -7,6 +7,7 @@ const QuemSomosSec = styled.section`
   height: 100vh;
   display: flex;
   justify-content: space-around;
+  padding: 1rem;
 `;
 
 const Content = styled.div`
@@ -20,14 +21,11 @@ const Content = styled.div`
 const QuemSomos = () => {
   return (
     <QuemSomosSec id="/">
-      <div>
+      <Content>
         <h1>Quem Somos?</h1>A <strong>ALBA</strong> é uma empresa comprometida
         com você, temos soluções para todas as etapas da sua obra!
-      </div>
-
-      <Content>
-        <Who />
       </Content>
+      <Who />
     </QuemSomosSec>
   );
 };
